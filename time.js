@@ -19,8 +19,8 @@
 	function buildDataSet() {
 		const output = [];
 		timeData.forEach((currentEntry, entryType) => {
-
+			
 		});
 	}
-
+	buildDataSet();
 })();
