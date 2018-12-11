@@ -5,7 +5,7 @@
 		<meta name='timey' content='Time Tracker'>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Timey Up!</title>
-		<link rel='stylesheet' href='style.css'>
+		<link rel='stylesheet' href='css/style.css'>
 	</head>
 	<body>
 		<div class='container'>
@@ -28,7 +28,7 @@
 					<div class="main">
 						<div class="summary">
 							<h2>Time so far:</h2>
-							<p> put time here and chart</p>
+							<div id="pie" style="height: 300px;"></div>
 						</div>
 						<div class="enterTime">
 							<p>input box for time</p>
@@ -47,6 +47,8 @@
 				</div>	
 			</div>
 		</div>
-		<script src='time.js'></script>
+		<script src="https://www.gstatic.com/charts/loader.js"></script>
+	  <script src="js/chartkick.js"></script>
+		<script src='js/time.js'></script>
 	</body>
 </html>

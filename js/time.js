@@ -18,9 +18,12 @@
 
 	function buildDataSet() {
 		const output = [];
-		timeData.forEach((currentEntry, entryType) => {
-			
+		timeData.forEach((currentEntry, entryType) => {	
 		});
+		new Chartkick.PieChart("pie", 
+			[["1:1",120],["Standup",75],["Retro/Planning",60],["Grooming",60],["Interviews",375]], 
+			{download: "pie"}
+		);
 	}
 	buildDataSet();
 })();
